@@ -12,8 +12,8 @@ on:
   schedule:
     - cron: "10 14 * * 1-5" #Afternoon 2:10 PM UTC, Monday to Friday
 
-  environment:
-    ECR_REPOSITORY: "vprofile-appimage"
+env:
+  ECR_REPOSITORY: "vprofile-appimage"
 
 permissions:
   contents: read
